@@ -8,11 +8,11 @@ const Footer = () => {
         <div className="text-center">
           <div className="flex items-center justify-center mb-4">
             <Heart className="w-6 h-6 text-rose-500 mr-2" />
-            <span className="text-2xl font-light">Emma & James</span>
+            <span className="text-2xl font-light">Darlene Joyce & Ian</span>
           </div>
-          
+
           <p className="text-gray-400 mb-6">
-            June 15, 2024 • Sunset Garden Venue
+            September 27, 2025 • Señorito Nature Resort
           </p>
           
           <div className="flex justify-center space-x-6 mb-8">

@@ -10,21 +10,21 @@ const Hero = () => {
       <div className="text-center z-10 px-4">
         <div className="mb-8">
           <h1 className="text-6xl md:text-8xl font-light text-gray-800 mb-4">
-            Emma <span className="text-rose-500">&</span> James
+            Darlene Joyce <span className="text-rose-500">&</span> Ian
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 font-light">
             are getting married
           </p>
         </div>
-        
+
         <div className="mb-8">
           <p className="text-lg text-gray-700 mb-2">Save the Date</p>
           <p className="text-3xl md:text-4xl font-light text-rose-600">
-            June 15, 2024
+            September 27, 2025
           </p>
         </div>
-        
-        <Countdown targetDate="2024-06-15T16:00:00" />
+
+        <Countdown targetDate="2025-09-27T10:00:00" />
         
         <div className="mt-12">
           <a 

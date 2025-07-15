@@ -24,20 +24,28 @@ const Details = () => {
               <div className="flex items-start">
                 <Calendar className="w-5 h-5 text-gray-600 mr-3 mt-1" />
                 <div>
-                  <p className="text-gray-800 font-medium">Saturday, June 15, 2024</p>
+                  <p className="text-gray-800 font-medium">Saturday, September 27, 2025</p>
                 </div>
               </div>
               <div className="flex items-start">
                 <Clock className="w-5 h-5 text-gray-600 mr-3 mt-1" />
                 <div>
-                  <p className="text-gray-800 font-medium">4:00 PM</p>
+                  <p className="text-gray-800 font-medium">10:00 AM</p>
                 </div>
               </div>
               <div className="flex items-start">
                 <MapPin className="w-5 h-5 text-gray-600 mr-3 mt-1" />
                 <div>
-                  <p className="text-gray-800 font-medium">Sunset Garden Venue</p>
-                  <p className="text-gray-600">123 Garden Lane, Somewhere, ST 12345</p>
+                  <p className="text-gray-800 font-medium">St. Agustin Parish Church</p>
+                  <p className="text-gray-600">Bay, Laguna</p>
+                  <a
+                    href="https://maps.app.goo.gl/9Zy3HexyKQkW8t9AA"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-rose-500 hover:text-rose-600 text-sm"
+                  >
+                    View on Google Maps
+                  </a>
                 </div>
               </div>
             </div>
@@ -52,20 +60,28 @@ const Details = () => {
               <div className="flex items-start">
                 <Calendar className="w-5 h-5 text-gray-600 mr-3 mt-1" />
                 <div>
-                  <p className="text-gray-800 font-medium">Saturday, June 15, 2024</p>
+                  <p className="text-gray-800 font-medium">Saturday, September 27, 2025</p>
                 </div>
               </div>
               <div className="flex items-start">
                 <Clock className="w-5 h-5 text-gray-600 mr-3 mt-1" />
                 <div>
-                  <p className="text-gray-800 font-medium">6:00 PM - 11:00 PM</p>
+                  <p className="text-gray-800 font-medium">12:00 PM</p>
                 </div>
               </div>
               <div className="flex items-start">
                 <MapPin className="w-5 h-5 text-gray-600 mr-3 mt-1" />
                 <div>
-                  <p className="text-gray-800 font-medium">Sunset Garden Venue</p>
-                  <p className="text-gray-600">123 Garden Lane, Somewhere, ST 12345</p>
+                  <p className="text-gray-800 font-medium">Señorito Nature Resort</p>
+                  <p className="text-gray-600">Brgy. Masaya, Bay, Laguna</p>
+                  <a
+                    href="https://maps.app.goo.gl/Sx6i889uDJMSaBWr7"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-500 hover:text-blue-600 text-sm"
+                  >
+                    View on Google Maps
+                  </a>
                 </div>
               </div>
             </div>
@@ -76,7 +92,7 @@ const Details = () => {
           <div className="bg-amber-50 p-6 rounded-xl border border-amber-200">
             <h4 className="text-xl font-semibold text-amber-800 mb-2">Dress Code</h4>
             <p className="text-amber-700">
-              Cocktail attire requested. We'll be celebrating outdoors, so please dress comfortably.
+              We kindly encourage our guests to wear formal attire and any color of your choice except white and dark blue.
             </p>
           </div>
         </div>

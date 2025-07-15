@@ -8,7 +8,7 @@ const Header = () => {
         <nav className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <Heart className="w-6 h-6 text-rose-500" />
-            <span className="text-xl font-semibold text-gray-800">Emma & James</span>
+            <span className="text-xl font-semibold text-gray-800">Darlene Joyce & Ian</span>
           </div>
           <div className="hidden md:flex space-x-8">
             <a href="#home" className="text-gray-600 hover:text-rose-500 transition-colors">Home</a>
