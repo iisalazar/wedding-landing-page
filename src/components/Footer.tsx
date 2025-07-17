@@ -7,8 +7,8 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center">
           <div className="flex items-center justify-center mb-4">
-            <Heart className="w-6 h-6 text-rose-500 mr-2" />
-            <span className="text-2xl font-light">Darlene Joyce & Ian</span>
+            <Heart className="w-6 h-6 mr-2" style={{color: '#191970'}} />
+            <span className="text-2xl font-light">Ian & Darlene</span>
           </div>
 
           <p className="text-gray-400 mb-6">
@@ -16,13 +16,13 @@ const Footer = () => {
           </p>
           
           <div className="flex justify-center space-x-6 mb-8">
-            <a href="#" className="text-gray-400 hover:text-rose-500 transition-colors">
+            <a href="#" className="text-gray-400 transition-colors" onMouseEnter={(e) => e.currentTarget.style.color = '#191970'} onMouseLeave={(e) => e.currentTarget.style.color = ''}>
               <Instagram className="w-6 h-6" />
             </a>
-            <a href="#" className="text-gray-400 hover:text-rose-500 transition-colors">
+            <a href="#" className="text-gray-400 transition-colors" onMouseEnter={(e) => e.currentTarget.style.color = '#191970'} onMouseLeave={(e) => e.currentTarget.style.color = ''}>
               <Facebook className="w-6 h-6" />
             </a>
-            <a href="#" className="text-gray-400 hover:text-rose-500 transition-colors">
+            <a href="#" className="text-gray-400 transition-colors" onMouseEnter={(e) => e.currentTarget.style.color = '#191970'} onMouseLeave={(e) => e.currentTarget.style.color = ''}>
               <Twitter className="w-6 h-6" />
             </a>
           </div>
