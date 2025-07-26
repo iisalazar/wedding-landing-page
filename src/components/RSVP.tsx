@@ -26,7 +26,7 @@ const RSVP = () => {
           </div>
 
           <a
-            href="#"
+            href="https://forms.gle/kU5T2Dz3TXDZDqT2A"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center text-white px-8 py-4 rounded-lg transition-colors font-medium text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1"
@@ -39,7 +39,7 @@ const RSVP = () => {
           </a>
 
           <p className="text-sm text-gray-500 mt-6">
-            Please respond by August 27, 2025
+            Please respond by August 31, 2025
           </p>
         </div>
       </div>

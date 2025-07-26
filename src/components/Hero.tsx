@@ -24,7 +24,15 @@ const Hero = () => {
           </p>
         </div>
 
-        <Countdown targetDate="2025-09-27T10:00:00" />
+        <div className="mb-8">
+          <h3 className="text-xl font-medium text-gray-800 mb-4">Wedding Day</h3>
+          <Countdown targetDate="2025-09-27T10:00:00" />
+        </div>
+
+        <div className="mb-8">
+          <h3 className="text-xl font-medium text-gray-800 mb-4">RSVP Deadline</h3>
+          <Countdown targetDate="2025-08-31T23:59:59" />
+        </div>
 
         <div className="mt-12">
           <a
